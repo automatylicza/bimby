@@ -210,3 +210,6 @@ Poniżej przedstawiam przykładową wizualizację danych opóźnień dla jednego
 
 Wizualizacja ta pozwala łatwo zidentyfikować przystanki, na których opóźnienia są największe, oraz porównać je do średnich wartości dla całej linii.
 
+przykładowa wizualizacja
+
+https://youtu.be/NZMc1LQw_wI
