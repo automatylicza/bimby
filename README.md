@@ -200,19 +200,6 @@ Jeśli szukasz kogoś, kto potrafi efektywnie przetwarzać dane, tworzyć solidn
 - **Imię i nazwisko**: Sebastian Kruszek
 - **Email**: automatylicza@gmail.com
 
-
-# README - Projekt BIMBA: Pobieranie i Przetwarzanie Danych GTFS
-
-## 📝 **Wprowadzenie**
-
-Projekt **BIMBA** powstał jako część mojego procesu nauki i rozwoju umiejętności w zakresie budowania systemów ETL oraz przetwarzania danych. Głównym celem było opanowanie nowych narzędzi i technologii, a także zrozumienie, jak tworzyć skalowalne rozwiązania przetwarzające duże zbiory danych. W trakcie pracy nad tym projektem zdobyłem cenne doświadczenie i wiedzę, które pozwoliły mi dostrzec jego niedoskonałości oraz obszary do poprawy.
-
-Obecna wersja projektu zawiera rozwiązania, które są wynikiem iteracyjnego procesu nauki. Wiele elementów zostało zmienionych i udoskonalonych w miarę zdobywania nowych umiejętności. Niektóre rozwiązania w projekcie znalazły się celowo, aby je przetestować, choć zdaję sobie sprawę z ich niewłaściwego zastosowania. Były one częścią mojego eksperymentowania z różnymi podejściami i technologiami.
-
-Dziś jestem w stanie tworzyć znacznie bardziej zoptymalizowane, skalowalne i profesjonalne systemy ETL oraz pipelines danych. 
-
-Publikuję ten projekt jako świadectwo mojego progresu i punkt wyjścia, który pokazuje, jak wiele się nauczyłem. Wiem, że następna wersja będzie pozbawiona obecnych błędów, nieoptymalnych rozwiązań oraz nieodpowiednio dobranych bibliotek. Moja wiedza umożliwia mi teraz budowanie narzędzi na wyższym poziomie, a ten projekt traktuję jako krok milowy w mojej drodze do perfekcji.
-
 ---
 
 ## 📊 **Przykład Wizualizacji**
