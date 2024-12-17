@@ -1,0 +1,9 @@
+data_storage/
+logs/
+__pycache__/
+Wyniki/
+Mapy/
+.vscode/
+__init__.py/
+.gitignore/
+tests/

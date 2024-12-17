@@ -1,0 +1,45 @@
+modules:
+  fetch_dynamic: true
+  fetch_static: true
+  etl: true
+  load_to_db: true
+
+data_acquisition:
+  dynamic:
+    interval_seconds: 10
+    max_files_per_folder: 20
+    urls:
+      feeds: "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGtfsRtFile/?file=feeds.pb"
+      trip_updates: "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGtfsRtFile/?file=trip_updates.pb"
+      vehicle_positions: "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGtfsRtFile/?file=vehicle_positions.pb"
+  static:
+    interval_seconds: 3600
+    use_hash: true
+    urls:
+      gtfs_zip: "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGTFSFile"
+      vehicle_dictionary: "https://www.ztm.poznan.pl/pl/dla-deweloperow/getGtfsRtFile/?file=vehicle_dictionary.csv"
+
+data_storage:
+  raw_dir: "data_storage/raw"
+  processed_dir: "data_storage/processed"
+  dynamic_dir: "data_storage/processed/dynamic"
+  static_dir: "data_storage/processed"
+  vehicle_dictionary_dir: "data_storage/processed/vehicle_dictionary_20241206034845"
+
+check_interval: 30
+
+etl:
+  input_dir: "data_storage/raw/dynamic/feeds"
+  output_dir: "data_storage/processed"
+  stability_period: 10
+  interval_seconds: 30
+  max_pb_files_per_folder: 20
+
+database:
+  uri: "postgresql+psycopg2://postgres:@localhost:5432/BIMBASQL"
+
+logging:
+  file: "logs/app.log"
+  level: "DEBUG"
+  rotation: "10 MB"
+  compression: "zip"
